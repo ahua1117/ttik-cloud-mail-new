@@ -6,10 +6,12 @@ keep_vars = true
 [observability]
 enabled = true
 
-#[[d1_databases]]
-#binding = "db"			# D1 binding name; do not change
-#database_name = ""		# D1 database name
-#database_id = ""		# D1 database id
+
+[[d1_databases]]
+binding = "db"
+database_name = "email-ttik"
+database_id = "5dffae56-9378-4a18-82c8-a0160556ed46"
+
 
 [[kv_namespaces]]
 binding = "kv"
