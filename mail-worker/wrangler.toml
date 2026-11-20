@@ -11,9 +11,9 @@ enabled = true
 #database_name = ""		# D1 database name
 #database_id = ""		# D1 database id
 
-#[[kv_namespaces]]
-#binding = "kv"			# KV binding name; do not change
-#id = ""					# KV namespace id
+[[kv_namespaces]]
+binding = "kv"
+id = "4ef9041dcda24471aa47da8d056475a8"
 
 #[[r2_buckets]]
 #binding = "r2"			# R2 binding name; do not change
